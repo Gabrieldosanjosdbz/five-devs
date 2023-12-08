@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;1,700&display=swap');
+
+/*.materia-bg{
+    background: url(/img/Fundo_LIMA.jpg), lightgray 54.405px -361.434px / 100% 335.633% no-repeat;
+    height: 240px;
+    flex-shrink: 0;
+} */
+
+.sigla_materia{
+    /*color: #FFF;*/
+    background: linear-gradient(to bottom right, #AD00FF 0%, #A9A2FF 27%, #1400FF 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #AD00FF 0%, #A9A2FF 27%, #1400FF 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #AD00FF 0%, #A9A2FF 27%, #1400FF 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #AD00FF 0%, #A9A2FF 27%, #1400FF 50%) top right / 50% 50% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  89.554px; 
+    letter-spacing: 9.6px;
+    padding-top: 50px;
+    padding-left: 130px;
+    justify-content: space-around;
+}
+
+.nome_materia{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  13.993px;
+    letter-spacing: 1.5px;
+    padding-bottom: 80px;
+    padding-left: 140px;
+    display: flex;
+}
+
+.texto{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  29.851px 
+}

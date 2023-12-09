@@ -1,6 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.lista-home {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-icon,
+.recursos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 80px;
+}
+.recursos {
+  top: 30px;
+  left: 1470px;
+  display: inline-block;
+  width: 106.7px;
+  height: 13.8px;
+  cursor: pointer;
+}
+.linux {
+  top: 29px;
+  left: 1577px;
+  width: 60px;
+  height: 13.8px;
+}
+.desenvolvedores,
+.home,
+.linux,
+.matrias {
+  position: absolute;
+  display: inline-block;
+}
+.home {
+  top: 31px;
+  left: 1263px;
+  font-family: var(--font-inter);
+  width: 61.3px;
+  cursor: pointer;
+}
+.desenvolvedores,
+.matrias {
+  top: 30px;
+  left: 1357px;
+  width: 78px;
+}
+.desenvolvedores {
+  top: 31px;
+  left: 1662px;
+  width: 153px;
+}
+.header-home,
+.logo-icon {
+  position: absolute;
+  top: 0;
+}
+.logo-icon {
+  left: 136px;
+  width: 85.3px;
+  height: 74.5px;
+  object-fit: cover;
+}
+.header-home {
+  left: 0;
+  backdrop-filter: blur(4px);
+  width: 100%;
+  height: 80px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-roboto);
+}
 
 #titulo-home {
+    margin: 80px 80px 0px;
     background: linear-gradient(180deg, #4E3BBF 8.01%, #5E53A5 38.25%, #5C41FF 99.78%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -15,14 +90,28 @@
 }
 
 #titulo-home2 {
+    margin: 0px 80px;
     background: linear-gradient(180deg, #F5F9FF 8.01%, #6E7176 46.96%, #FFF 99.78%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: 'Montserrat', sans-serif;
-font-size: 96px;
-font-style: normal;
-font-weight: 700;
-line-height: 93.285%;
-letter-spacing: 9.6px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 93.285%;
+    letter-spacing: 9.6px;
+    }
+
+.squad {
+    margin: 80px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.285%; /* 22.388px */
+    letter-spacing: 2.4px;
+
 }

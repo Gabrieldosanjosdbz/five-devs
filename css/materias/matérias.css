@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@600&display=swap');
+
+ 
+#img-recursos{
+    margin-top: 100px;
+}
+
+#teste2{
+    border: 10px solid white;
+}
+.titulo_central{
+    width: 418.667px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat, sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:  89.554px;
+    letter-spacing: 9.6px;
+    background: linear-gradient(258deg, #FBFDFF 36.59%, #73FCFD 58.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+   
+}
+
+.titulo_materia{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat, sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 93.285%; /* 89.554px */
+    letter-spacing: 9.6px;
+    padding-left: 96px;
+    padding-right: 89px;
+}
+
+.titulo_materia:last-child{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.subtitulo_materia{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat, sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 93.285%; /* 89.554px */
+    letter-spacing: 9.6px;
+    padding-left: 96px;
+    padding-right: 89px;
+    padding-bottom: 680px;
+}
+
+ 
+
+.subtitulo_materia:last-child{
+
+    background: linear-gradient(265deg, #CAE6FF 14.38%, #73FCFD 63.26%);
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    font-family: Montserrat, sans-serif;
+
+    font-size: 96px;
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    line-height: 93.285%;
+
+    letter-spacing: 9.6px;
+
+}
+
+ 
+
+.texto_materia{
+
+    color: #FFF;
+
+    font-family: Inter, sans-serif;
+
+    font-size: 36px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: 102%; /* 36.72px */
+
+    letter-spacing: 3.6px;
+
+}
+
+ 
+
+.texto_materia:last-child{
+
+    width: 903px;
+
+    height: 221px;
+
+    flex-shrink: 0;
+
+    padding-left: 160px;
+}
+
+.titulo-aula :last-child{
+    background: lightgray 50% / cover no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ 
+.titulo_central:last-child{
+}
+
+
+
+.subtitulo_central :last-child{
+    background: linear-gradient(258deg, #FBFDFF 36.59%, #73FCFD 58.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

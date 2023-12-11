@@ -8,11 +8,14 @@ main{
     margin:auto;
     width: 100%;
     height: auto;
-    background-color: black;
 }
 
 .header-bg{
     background-color: black;
+    background-color: linear-gradient(180deg, rgba(172, 172, 172, 0.08) 0%, rgba(172, 172, 172, 0.08) 100%);
+}
+
+.header-bg-home {
     background-color: linear-gradient(180deg, rgba(172, 172, 172, 0.08) 0%, rgba(172, 172, 172, 0.08) 100%);
 }
 

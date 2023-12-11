@@ -12,12 +12,10 @@
 </head>
 <style>
     body {
-        background-image: url(/img/Fundo_Home.jpg);
+        background-image: url(./img/Fundo_Home.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
-
     }
-
     a {
       text-decoration: none;
       color: inherit; 
@@ -25,31 +23,44 @@
       font-family: 'Montserrat', sans-serif;
     }
 </style>
+
 <body>
+    <header class="header-bg-home">
+        <div class="header conteiner">
+            <a href="home.html">
+                <img src="img/Logo_5Devs.png" alt="" width="85.333px" height="74.521px" flex-shrink = 0;>
+            </a>
 
-    <header class="header-home">
-        <img class="header-icon" src="./img/header.svg" alt="" data-scroll-to="hEADER" />
-
-        <ul class="lista-home">
-            <li class="home"><a href="home.html">HOME</a></li>
-            <li class="matrias"><a href="matérias.html">MATÉRIAS</a></li>
-            <li class="recursos"><a href="recusrsos.html">RECURSO</a></li>
-            <li class="linux"><a href="linux.html">LINUX</a></li>
-            <li class="desenvolvedores"><a href="devs.html">DESENVOLVEDORES</a></li>
-        </ul>
-    
-        <img class="logo-icon" src="./img/Logo_5Devs.png"  alt="logo five devs" />
+            <nav a="primaria">
+                <ul class="header-menu">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="matérias.html">MATÉRIAS</a></li>
+                    <li><a href="recusrsos.html">RECURSO</a></li>
+                    <li><a href="linux.html">LINUX</a></li>
+                    <li><a href="devs.html">DESENVOLVEDORES</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    
 
     <main class="main-home">
         <h1 id="titulo-home">FIVE</h1>
         <h1 id="titulo-home2">DEVs</h1> 
 
         <p class="squad">Squad de Desenvolvimento</p>
-
         
+        <div class="apresentacao">
+            <span>No primeiro semestre do curso de </span>
+            <b>Desenvolvimento de Sistemas</b>
+            <span> no Senai Suíço Brasileiro, formamos uma </span>
+            <b>equipe competente</b>
+            <span>
+            e dedicada. Buscamos constantemente aprimorar nossas habilidades,
+            superar desafios e criar um ambiente propício à excelência.</span
+            >
+            </div>
     </main>
 
-   
 </body>
 </html>

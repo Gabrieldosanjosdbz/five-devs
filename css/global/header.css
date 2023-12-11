@@ -10,13 +10,17 @@ main{
     height: auto;
 }
 
-.header-bg{
-    background-color: black;
-    background-color: linear-gradient(180deg, rgba(172, 172, 172, 0.08) 0%, rgba(172, 172, 172, 0.08) 100%);
-}
+.logo-devs {
+    left: 136px;
+    width: 85.3px;
+    height: 74.5px;
+    object-fit: cover;
+    background: none;
+  }
 
-.header-bg-home {
-    background-color: linear-gradient(180deg, rgba(172, 172, 172, 0.08) 0%, rgba(172, 172, 172, 0.08) 100%);
+.header-bg{
+    background-color: black; 
+    background-color: linear-gradient(180deg, rgba(172, 172, 172, 0.08) 0%, rgba(172, 172, 172, 0.08) 100%); 
 }
 
 .header {
@@ -37,6 +41,7 @@ main{
     display: flex;
     gap: 20px;
     list-style-type: none;
+    background: none;
 }
 
 .header-menu a {

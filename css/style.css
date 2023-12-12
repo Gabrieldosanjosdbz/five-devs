@@ -1,5 +1,7 @@
 @import "global/header.css";
 @import "global/main.css";
+@import "global/titulo.css";
 
-@import "materias/matérias";
 @import "home/home.css";
+@import "materias/matérias";
+@import "recursos/recursos.css";

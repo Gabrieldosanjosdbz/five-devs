@@ -4,8 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <title>Five Devs</title>
+
+    <link rel="stylesheet" href="./css/devs/global.css" />
+    <link rel="stylesheet" href="./css/devs/index.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -14,24 +16,42 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
     />
+    <link rel="icon"  href="/img/Logo_5Devs.png"  type="image/png">
   </head>
+
+  <style>
+    body {
+        background-image: url(./img/Fundo_Home.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    a {
+      text-decoration: none;
+      color: inherit; 
+      cursor: pointer; 
+      font-family: 'Montserrat', sans-serif;
+    }
+
+</style>
   <body>
     <div class="devs">
       <div class="frame">
         <div class="header">
-          <img
-            class="header-icon"
-            alt=""
-            src="./public/header.svg"
-            data-scroll-to="hEADER"
-          />
+          <a href="./home.html">
+            <img
+              class="header-icon"
+              alt=""
+              src="./public/header.svg"
+              data-scroll-to="hEADER"
+          /></a>
 
-          <div class="recursos" id="rECURSOSText">RECURSOS</div>
-          <div class="linux">LINUX</div>
-          <div class="home">HOME</div>
-          <div class="matrias" id="mATRIASText">MATÉRIAS</div>
-          <div class="desenvolvedores">DESENVOLVEDORES</div>
-          <img class="logo-icon" alt="" src="./public/logo@2x.png" />
+          <a href="./recursos.html"><div class="recursos" id="rECURSOSText">RECURSOS</div></a>
+          <a href="./linux.html"><div class="linux">LINUX</div></a>
+          <a href="./home.html"><div class="home">HOME</div></a>
+          <a href="./matérias.html"><div class="matrias" id="mATRIASText">MATÉRIAS</div></a>
+          <a href="./devs.html"><div class="desenvolvedores">DESENVOLVEDORES</div></a>
+          <a href="./home.html"><img class="logo-icon" alt="" src="./public/logo@2x.png"/></a>
         </div>
         <div class="frame1"></div>
       </div>

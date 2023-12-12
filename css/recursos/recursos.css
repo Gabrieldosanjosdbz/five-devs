@@ -4,3 +4,27 @@
     background-size: cover;
     width: 100%;
 }
+
+
+.recursos-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.img-recursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 195px;
+}
+
+
+#texto_recursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid blue;
+}

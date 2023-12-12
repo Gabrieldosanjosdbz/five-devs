@@ -1,11 +1,23 @@
-.titulo-aula{
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.titulo-supremo{
+    /* background-color: black;
+    color: gray;
     font-family: Montserrat, sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 700;
     line-height:  89.554px;
-    letter-spacing: 9.6px;
+    letter-spacing: 9.6px; */
+
+    text-align: center;
+    background: linear-gradient(228deg, #FFF 26.1%, rgba(255, 255, 255, 0.00) 123.19%);
+    /* background: linear-gradient(0px 4px 4px rgba(0, 0, 0, 0.25)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    font-family: Montserrat, sans-serif;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 119.405px;
+    letter-spacing: 12.8px;
     padding-left: 420px;
     padding-right: 89px;
 }
@@ -24,7 +36,6 @@
     padding-bottom: 9px;
     padding-top: 155px;
 }
- 
 
 .texto_central{
     color: #FFF;
@@ -38,27 +49,4 @@
     padding-right: 150px;
     padding-bottom: 160px;
    
-}
-
-.recursos-conteiner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 70px
-}
-
-.img-recursos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 130px;
-    height: 195px;
-}
-
-
-#texto_recursos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 10px solid blue;
 }

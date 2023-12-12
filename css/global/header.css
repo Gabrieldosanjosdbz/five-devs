@@ -23,6 +23,11 @@ main{
     background-color: linear-gradient(180deg, rgba(172, 172, 172, 0.08) 0%, rgba(172, 172, 172, 0.08) 100%); 
 }
 
+.header-home{
+background: transparent;
+backdrop-filter: blur(5px);
+}
+
 .header {
     display: flex;
     flex-wrap: wrap;

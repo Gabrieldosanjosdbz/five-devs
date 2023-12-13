@@ -88,3 +88,17 @@
 .abnt::after {
     content: url("/img/seta.svg");
 }
+
+.canvas {
+    position: absolute; /* Posiciona absolutamente em relação ao elemento pai */
+    top: 0;
+    left: 0;
+    margin: 90px 0px 0px 0px; /* Remove a margem padrão */
+    z-index: -1; /* Coloca o "canvas" atrás do conteúdo principal */
+  }
+
+  /* Estilize o restante do conteúdo conforme necessário */
+  .titulo-container {
+    position: relative; 
+    z-index: 1; 
+  }

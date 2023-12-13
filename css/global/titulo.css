@@ -31,7 +31,7 @@ padding-top: 65px;
 
 .texto{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     /*font-weight: 400;
@@ -39,6 +39,7 @@ padding-top: 65px;
     letter-spacing: 3.6px;
     padding-left: 70px;
     flex: 1;
+    margin-top: 50px;
     
 }
 
@@ -46,17 +47,20 @@ padding-top: 65px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-style: normal;
     /*font-weight: 700;
     line-height: 93.285%;*/
     letter-spacing: 9.6px;
     flex: 1;
+    position: relative; 
+    z-index: 1; 
+    margin-bottom: 30px;
 }
 
 .canvas{
-    font-family: Montaga, sans-serif;
+    font-family: 'Montaga', sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
@@ -65,7 +69,11 @@ padding-top: 65px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0;
     flex: 1;
     display: flex;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    padding: 60px 0px 0px 0px;
+    z-index: -1; 
 }

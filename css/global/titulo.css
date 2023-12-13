@@ -4,6 +4,7 @@
     display: flex;
 }
 
+
 #titulo-central{
 padding-top: 65px;
 }
@@ -42,7 +43,6 @@ padding-top: 65px;
 }
 
 .titulo-container span{
-    padding-left: 50px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

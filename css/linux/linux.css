@@ -1,0 +1,29 @@
+
+.subtitulo_linux{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 4px;
+    padding-left: 230px;
+    padding-right: 89px;
+    /* padding-bottom: 40px; */
+    padding-bottom: 9px;
+    padding-top: 155px;
+}
+
+
+.texto_linux{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2.8px;
+    padding-left: 230px;
+    padding-right: 150px;
+    padding-bottom: 160px; 
+}

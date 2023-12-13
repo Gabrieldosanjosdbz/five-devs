@@ -19,8 +19,8 @@ main{
   }
 
 .header-bg{
-    background-color: black; 
-    background-color: linear-gradient(180deg, rgba(172, 172, 172, 0.08) 0%, rgba(172, 172, 172, 0.08) 100%); 
+    background:  linear-gradient(180deg, rgba(172, 172, 172, 0.08) 0%, rgba(172, 172, 172, 0.08) 100%), black;
+    color: black;
 }
 
 .header-home{

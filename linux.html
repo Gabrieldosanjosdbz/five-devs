@@ -31,34 +31,131 @@
 
     <article class="titulo-bg">
         <div class="titulo-container">
-            <p class="primeiro-titulo">PASSO A PASSO</p>
+            <p class="primeiro-titulo">LINUX</p>
             <p class="canvas" style="background: linear-gradient(180deg, #F77D1B 0%, rgba(255, 255, 255, 0.98) 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">I</p>
-            <h1> COMO BAIXAR O <span style="background: linear-gradient(265deg, #F8511D 18.53%, #F5EC15 63.26%); background-clip: text;">LINUX.</span></h1>
+            <h1> MANUAL DE <span style="background: linear-gradient(265deg, #F8511D 18.53%, #F5EC15 63.26%); background-clip: text;">INSTALAÇÃO.</span></h1>
             <p class="texto">Neste módulo, ensinaremos passo a passo </br>
             como instalar o Unbuntu, que é um Sistema </br>
             Operacional de código aberto baseado em Lixus. </p>
         </div>
     </article>
+    
+    <main style="background-color: black;">
 
-    <div class="requisitos">
-        <h2 class="titulo_requisitos">requisitos</h5>
+        <article id="linux">
+            <div >
+                <p class="titulo-supremo">TUTORIAL</p>
+            </div>
 
-        <div class="lista-requisitos">
-            <p>Antes de partir para a instalação do Ubuntu, você precisa saber se tem:</p>
-            <ol>
-                <li>25 GB de espaço de armazenamento livre para instalação do sistema;</li>
-                <li>4 GB de memória RAM;</li>
-                <li>Processador dual-core de, no mínimo, 2 GHz;</li>
-                <li>Uma porta USB;</li>
-                <li>Um pendrive de, no mínimo, 8 GB (se tiver 12 ou mais é melhor).</li>    
-            </ol>
-        </div>
-    </div>
+            <article>
+                <h2 class="subtitulo_central">Requisitos</h2>
+                    <div class="texto_central">
+                        <p>Antes de partir para a instalação do Ubuntu, você precisa saber se tem:</p>
+                        <ul>
+                            <li>25 GB de espaço de armazenamento livre para instalação do sistema;</li>
+                            <li>4 GB de memória RAM;</li>
+                            <li>Processador dual-core de, no mínimo, 2 GHz;</li>
+                            <li>Uma porta USB;</li>
+                            <li>Um pendrive de, no mínimo, 8 GB (se tiver 12 ou mais é melhor).</li>    
+                        </ul>
+                    </div>
+            </article>
 
-    <div >
-        <p class="titulo-supremo">LINUX</p>
-    </div>
+            <div class="linux-conteiner">  
+                <div class="texto-linux">
+                    <h1 class="subtitulo_central">1. Faça o download do Ubuntu</h1>
+                    <h2 class="texto_central">O arquivo da imagem está disponível no site oficial do sistema. Se você é um usuário iniciante ou se só quer um sistema que funcione sem grandes problemas, é melhor baixar a versão LTS (long-term support). Ela tem atualizações menos frequentes, mas é mais estável e tem um suporte mais longo. </h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 1.png" alt="Passo 1"></div>
 
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">2. Crie um disco bootável </h1>
+                    <h2 class="texto_central">A imagem de disco do Ubuntu é um arquivo .iso, e infelizmente não dá para simplesmente rodá-la no seu computador. Você precisa criar um disco bootável, e a forma mais fácil de fazer isso é com um drive USB.
+                        O site oficial do sistema recomenda usar o balenaEtcher para criar esse disco. O programa é compatível com Linux, Windows e MacOS.
+                        Após instalar o software, escolha a imagem, selecione o pendrive e clique no botão “Flash!”. </h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 2.png" alt="Passo 2"></div>
+
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">3. Reinicie para bootar</h1>
+                    <h2 class="texto_central">Agora é hora de rodar o disco bootável. Reinicie o computador com o drive USB plugado. O sistema deve reconhecer e usar aquele disco na hora da inicialização. Se isso não ocorrer, você vai precisar entrar nas configurações para escolher a opção de dar boot no pendrive. Tente apertar e segurar F12 durante o boot para acessar o menu e colocar a USB como prioridade. Seu computador, porém, pode ter um caminho diferente para esses ajustes. </h2>
+                </div>
+            </div>
+            
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">4. Comece a instalação</h1>
+                    <h2 class="texto_central">Se tudo der certo, você verá uma tela de boas vindas do Ubuntu. É possível testar um pouco o sistema diretamente do drive USB ou instalá-lo diretamente no disco da máquina. Vamos com a segunda opção.</h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 4.png" alt="Passo 4"></div>
+
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">5. Escolha o idioma e configure o teclado</h1>
+                    <h2 class="texto_central"> Ao clicar em Instalar, um assistente aparecerá. Primeiro, você deverá configurar o idioma do sistema e fazer um processo rápido para que o software reconheça seu teclado. </h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 5.png" alt="Passo 5"></div>
+
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">6. Configure sua instalação</h1>
+                    <h2 class="texto_central">Depois, é preciso escolher se você quer uma instalação completa, com todos os programas do sistema, ou mínima, apenas com utilitários básicos e navegador, podendo instalar depois o que preferir.Também é preciso dizer se você quer baixar as atualizações durante a instalação para economizar tempo e se prefere incluir software de terceiros para gráficos, Wi-Fi e alguns formatos de mídia. Essa opção é interessante para quem tem uma placa de vídeo dedicada. </h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 6.png" alt="Passo 6"></div>
+
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">7. Escolha o disco ou a partição</h1>
+                    <h2 class="texto_central">
+                        Agora, é hora de escolher em que disco do seu computador você quer instalar. A opção padrão é apagar tudo e instalar o sistema. Atenção: se você tem Windows, macOS ou outro Linux instalado, ele será deletado caso você opte pelo caminho default.
+                        
+                        A alternativa é criar ou modificar as partições. Esse é um processo que merece cuidado, porque você também pode perder dados já salvos.
+                        
+                        Neste tutorial, vamos com a primeira opção, que é mais simples. A segunda pode ser útil para quem quer manter dois sistemas operacionais instalados no computador, como dual boot de Windows e Linux.</h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 7.png" alt="Passo 7"></div>
+
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">8. Criptografe (ou não) seu disco</h1>
+                    <h2 class="texto_central">No próximo passo, você pode optar por criptografar os dados salvos no disco. Se escolher esse caminho, crie uma chave de segurança e uma chave de recuperação</h2>
+                </div>
+            </div>
+        
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">9. Acerte seu relógio</h1>
+                    <h2 class="texto_central">Estamos quase no fim, mas ainda faltam alguns detalhes. Escolha o lugar onde você vive para ajustar o fuso horário. Geralmente esse processo é automático — o sistema detecta automaticamente sua localização caso esteja conectado à internet — mas ajustes podem ser necessários. </h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 9.png" alt="Passo 9"></div>
+
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">10. Configure o acesso</h1>
+                    <h2 class="texto_central">Agora é hora de colocar seu nome, o nome do computador, escolher um username e colocar uma senha no sistema</h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 10.png" alt="Passo 10"></div>
+
+            <div class="linux-conteiner">  
+                <div id="texto-linux">
+                    <h1 class="subtitulo_central">11. Aguarde a finalização</h1>
+                    <h2 class="texto_central">Pronto! É só esperar a instalação ser concluída. Após isso estará pronto para uso.</h2>
+                </div>
+            </div>
+            <div class="img-linux"> <img src="img/Passo 11.png" alt="Passo 11"></div>
+        </article>
+
+    </main>
    
 </body>
 </html>

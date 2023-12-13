@@ -1,11 +1,4 @@
 
-.recursos-conteiner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 70px;
-}
-
 .img-recursos{
     display: flex;
     justify-content: center;
@@ -14,18 +7,18 @@
     height: 195px;
 }
 
-
-#texto_recursos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#hardware{
+    padding-top: 200px;
 }
 
-#img-computador{
+.img-linux,
+#img-computador, 
+#info-compu{
     display: grid;
     place-items: center;
 }
-.info{
+
+#info{
     color: #FFF;
     font-family: Montserrat, sans-serif;
     font-size: 96px;
@@ -33,4 +26,25 @@
     font-weight: 700;
     line-height: 93.285%; /* 89.554px */
     letter-spacing: 9.6px;
+}
+
+#nome-compu{
+    padding-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 40px */
+    letter-spacing: 4px;
+}
+#descri-compu{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.2px;
 }

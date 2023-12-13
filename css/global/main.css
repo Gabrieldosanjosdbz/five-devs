@@ -1,3 +1,22 @@
+#linux,
+#hardware{
+    padding-bottom: 200px;
+}
+
+.linux-conteiner,
+.recursos-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.texto-linux,
+.texto_recursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .titulo-supremo{
     text-align: center;

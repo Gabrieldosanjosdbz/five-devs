@@ -32,7 +32,7 @@
     padding-top: 100px;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+font-family: Inter, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -41,7 +41,7 @@
 }
 #descri-compu{
     color: #FFF;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;

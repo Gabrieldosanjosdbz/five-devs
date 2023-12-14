@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@600&display=swap');
  
+.materia-bg{        
+    width: 100%;
+   
+}
+ 
+.titulo-img{
+    width: 1164px;
+    height: 842px;
+    flex-shrink: 0;
+    background-repeat: cover no-repeat;
+    text-shadow:  lightgray 50%
+}
+
 .titulo_materia{
+    width: 418.667px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Montserrat, sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 700;
-    line-height: 93.285%; /* 89.554px */
+    line-height: 89.554px;
     letter-spacing: 9.6px;
-    padding-left: 96px;
-    padding-right: 89px;
-}
- 
-.titulo_materia:last-child{
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    padding-left: 160px 417px 1334.33px 2081px;
+    background: linear-gradient(258deg, #FBFDFF 36.59%, #73FCFD 58.67%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -23,15 +33,18 @@
 .subtitulo_materia{
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(265deg, #CAE6FF 14.38%, #73FCFD 63.26%);
     font-family: Montserrat, sans-serif;
     font-size: 75px;
     font-style: normal;
     font-weight: 700;
-    line-height: 93.285%; /* 89.554px */
+    line-height: 89.554px;
     letter-spacing: 9.6px;
     padding-left: 96px;
     padding-right: 89px;
     padding-bottom: 680px;
+   
+   
 }
  
 .subtitulo_materia:last-child{
@@ -39,12 +52,9 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Montserrat, sans-serif;
     font-size: 96px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 93.285%;
-    letter-spacing: 9.6px;
+   
 }
  
 .texto_materia{
@@ -91,8 +101,11 @@
     font-size: 96px;
     font-style: normal;
     font-weight: 700;
-    line-height: 89.554px
-   
+    line-height: 89.554px;
+    background: linear-gradient(to bottom right, #AD00FF 0%, #FFF 0%, #73FCFD 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #AD00FF 0%, #FFF 0%, #73FCFD 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #AD00FF 0%, #FFF 0%, #73FCFD 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #AD00FF 0%, #FFF 0%, #73FCFD 50%) top right / 50% 50% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
  
 .titulo_materia:last-child{
@@ -133,79 +146,18 @@
     padding-right: 89px;
    
 }
- 
-#html{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 5px 50px 10px;
-   
+
+.imgs-ma{
+filter: drop-shadow(20px 7px 5px gray);
 }
- 
- 
-#css{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 5px 50px 10px;
-    align-items: center;
-   
-   
+
+.tit-lim{
+    background: linear-gradient(258deg, #FBFDFF 36.59%, #73FCFD 58.67%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    background: linear-gradient(258deg, #FBFDFF 36.59%, #73FCFD 58.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
- 
-#eclipse{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 5px 50px 10px;
-   
-}
- 
- 
-#java{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 5px 50px 10px;
-    align-items: center;
-   
-   
-}
- 
-#packet{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 5px 110px 10px;
-    align-items: stretch;
-   
-   
-}
- 
-#linux{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 5px 20px 10px;
-   
-}
- 
- 
-#windows{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 5px 20px 10px;
-    align-items: center;
-   
-   
-}
- 
-#virtual{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 5px 20px 10px;
-    align-items: stretch;
-}
-   

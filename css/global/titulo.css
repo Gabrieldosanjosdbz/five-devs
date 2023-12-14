@@ -24,8 +24,7 @@ padding-top: 65px;
     letter-spacing: 9.6px;
     padding-left: 70px;
     margin: 0;
-    flex:1;
-    
+    flex:1;   
 }
 
 .texto{
@@ -73,6 +72,6 @@ padding-top: 65px;
     position: absolute; 
     top: 0;
     left: 0;
-    padding: 60px 0px 0px 0px;
+    padding: 100px 0px 0px 40px;
     z-index: -1; 
 }

@@ -8,6 +8,8 @@ main{
     margin:auto;
     width: 100%;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .logo-devs {
@@ -26,6 +28,10 @@ main{
 .header-home{
 background: transparent;
 backdrop-filter: blur(5px);
+display: flex;
+width: 100%;
+justify-content: space-around;
+
 }
 
 .header {

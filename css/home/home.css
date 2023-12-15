@@ -1,5 +1,5 @@
 
-#titulo-home {
+.titulo-home {
     margin: 100px 80px 0px;
     background: linear-gradient(180deg, #4E3BBF 8.01%, #5E53A5 38.25%, #5C41FF 99.78%);
     background-clip: text;
@@ -14,7 +14,7 @@
     letter-spacing: 9.6px;
 }
 
-#titulo-home2 {
+.titulo-home2 {
     margin: 0px 80px;
     background: linear-gradient(180deg, #F5F9FF 8.01%, #6E7176 46.96%, #FFF 99.78%);
     background-clip: text;
@@ -25,7 +25,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 93.285%;
-    letter-spacing: 9.6px;
+    letter-spacing: 9.6px;   
     }
 
 .squad {
